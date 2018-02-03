@@ -8,7 +8,7 @@ FOR /F "eol=#" %%a IN (streams.txt) DO (
 --username %p_username% ^
 --password %p_password% ^
 %%a ^
--o "C:/Users/Net2/Videos/Pluralsight/%%(playlist)s/%%(chapter_number)02d - %%(chapter)s/%%(playlist_index)02d - %%(title)s.%%(ext)s" ^
+-o "C:/Users/%username%/Videos/Pluralsight/%%(playlist)s/%%(chapter_number)02d - %%(chapter)s/%%(playlist_index)02d - %%(title)s.%%(ext)s" ^
 --sleep-interval 35 ^
 --max-sleep-interval 120 ^
 --sub-lang en ^
